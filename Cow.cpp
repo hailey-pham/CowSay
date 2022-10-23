@@ -1,7 +1,3 @@
-//
-// Created by andyc on 10/19/2022.
-//
-
 #include "Cow.h"
 
 // constructors

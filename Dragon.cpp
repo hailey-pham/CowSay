@@ -1,5 +1,5 @@
 //
-// Created by andyc on 10/19/2022.
+// Created by Kelly on 10/23/2022.
 //
 
 #include "Dragon.h"
@@ -9,7 +9,7 @@
 Dragon::Dragon(const string& _name, const string& _image) : Cow(_name)
 {
     name = _name;
-    image = _image;
+    this->setImage(_image);
 }
 
 //checks object type

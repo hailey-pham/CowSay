@@ -1,7 +1,11 @@
-#ifndef LAB7_COW_H
-#define LAB7_COW_H
+//
+// Created by Kelly on 10/23/2022.
+//
 
+#ifndef UNTITLED3_COW_H
+#define UNTITLED3_COW_H
 #include <string>
+
 using std::string;
 
 class Cow
@@ -17,5 +21,4 @@ private:
     string image;
 };
 
-
-#endif //LAB7_COW_H
+#endif //UNTITLED3_COW_H

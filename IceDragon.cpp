@@ -1,5 +1,5 @@
 //
-// Created by andyc on 10/19/2022.
+// Created by Kelly on 10/23/2022.
 //
 
 #include "IceDragon.h"
@@ -7,7 +7,7 @@
 IceDragon::IceDragon(const std::string &_name, const std::string &_image) : Dragon(_name, _image)
 {
     name = _name;
-    image = _image;
+    this->setImage(_image);
 }
 
 bool IceDragon::canBreatheFire()

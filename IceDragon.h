@@ -1,21 +1,20 @@
 //
-// Created by andyc on 10/19/2022.
+// Created by Kelly on 10/23/2022.
 //
 
-#ifndef LAB7_ICEDRAGON_H
-#define LAB7_ICEDRAGON_H
-
+#ifndef UNTITLED3_ICEDRAGON_H
+#define UNTITLED3_ICEDRAGON_H
 
 #include "Dragon.h"
 
 class IceDragon : public Dragon
 {
-string name;
-string image;
 public:
     IceDragon(const std::string &_name, const std::string &_image);
-    bool canBreatheFire();
+    virtual bool canBreatheFire();
+private:
+    string name;
+    string image;
 };
 
-
-#endif //LAB7_ICEDRAGON_H
+#endif //UNTITLED3_ICEDRAGON_H
